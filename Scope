@@ -1,0 +1,40 @@
+//Global Scope
+// var firstName = "John";
+
+// console.log(firstName)
+
+
+
+
+
+
+//Local Scope
+// function aName() {
+// 	var lastName = "Smith"
+// 	console.log(lastName)
+// 	console.log(firstName)
+// }; 
+
+// aName();
+
+
+
+
+
+//Function Declarations
+function dec() {
+	var car = "Mustang"
+	console.log(car);
+};
+
+dec();
+
+
+
+//Function Expressions
+ var add = function ex(num1, num2) {
+ 	
+ 	console.log(num1 + num2);
+ };
+
+add(5, 5)

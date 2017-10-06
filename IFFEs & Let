@@ -1,0 +1,47 @@
+
+//====IFFE====
+// var foo = "foo";
+
+// (function () {
+// 	var foo = "fooer"
+// 	console.log("Scope of IFFE:", foo)  
+// })();
+
+// console.log("Globel scope:", foo); 
+
+// IFFE = function expression (named or anonymous), that immediately invokes (calls) itself 
+
+
+
+//====let====
+// for (var i = 0; i < 10; i++) {
+// 	console.log(i)
+// };
+
+// console.log(i)
+
+
+// for (let i = 0; i < 10; i++) {
+// 	console.log(i)
+// };
+
+// console.log(i)
+
+
+//====Hoisting====
+
+// Using var
+// for (i = 0; i < 10; i++) {
+// 	var i
+// 	console.log(i)
+// };
+
+// console.log(i)
+
+// Using let
+for (i = 0; i < 10; i++) {
+	let i
+	console.log(i)
+};
+
+console.log(i)
